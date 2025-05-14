@@ -1,4 +1,6 @@
 import style from './App.module.css'
+import style from './index.css'
+
 
 function App() {
   return (
@@ -10,29 +12,30 @@ function App() {
   <p><a href="">Contato</a></p>
   </nav>   
 
+
   <main>
     <section className ={style.s1}>
-      primeira
+        <h2>Apresentação</h2>
     </section>
     
     <section className ={style.s2}>
-      segunda
+        <h2>Tecnologias</h2>
     </section>
 
     <section className ={style.s3}>
-      terceira
+        <h2>Projetos</h2>
     </section>
 
     <section className ={style.s4}>
-      quarto
+        <h2>Contato</h2>
     </section>
 
   </main>
 
-  <footer>
 
+  <footer>
+        <h3>Redes Sociais</h3>
     </footer> 
-    <h3>Redes Sociais</h3>
   </>
   )
 }

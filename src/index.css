@@ -1,11 +1,11 @@
 :root {
-  --black: #090909;
-  --white: #ffffff;
-  --green: #15616D;
-  --beige: #FFECD1;
-  --orange:#FF7D00;
-  --brown:  #78290F;
-  --dark:  #001524;
+    --concrete-gray: #2a2d34;   /* Cinza escuro, lembra concreto urbano */
+    --light-gray: #e0e0e0;      /* Cinza claro, contraste suave */
+    --burnt-orange: #f29f05;    /* Laranja queimado, energia do asfalto aquecido */
+    --petrol-green: #00916e;    /* Verde petróleo, vibe streetwear */
+    --neon-yellow: #ffe156;     /* Amarelo neon, toque vibrante do grafitti */
+    --soft-coral: #fa824c;      /* Coral suave, para destacar títulos */
+    --deep-navy: #4d4c7d;       /* Azul escuro, moderno e intenso */
 }
 
 *{
@@ -17,14 +17,14 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--dark);
-  color: var(--beige);
+  background-color: var(--concrete-gray);
+  color: var(--soft-coral);
 }
 a{
   text-decoration: none;
-  color: inherit;
+  color: var(--concrete-gray);
   opacity: 0.5;
-  transition: all 2s ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 a:hover{

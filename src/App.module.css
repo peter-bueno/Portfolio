@@ -13,36 +13,33 @@
     gap: 2vw;
     font-size: 1.4rem;
     height: 50px;
-    background-color: var(--orange);
-    color: var(--brown);
+    background-color: var(--burnt-orange);
+    color: var(--deep-navy);
     position: fixed;
     top: 0;
     left: 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .s1{
-background-color: red;
 height: 100vh;
 padding-top: 50px;
 
 }
 
 .s2{
-background-color: blue;
 height: 100vh;
 padding-top: 50px;
 
 }
 
 .s3{
-background-color: green;
 height: 100vh;   
 padding-top: 50px;
 
 }
 
 .s4{
-background-color: yellow;
 height: 100vh;   
 padding-top: 50px;
 
