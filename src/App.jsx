@@ -1,10 +1,9 @@
-
-import './App.module.css'
+import style from './App.module.css'
 
 function App() {
   return (
     <>
-      <h1>Olá mundo</h1>
+      <h1 className={style.title}>Olá mundo</h1>
     </>
   )
 }
