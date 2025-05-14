@@ -1,17 +1,21 @@
 :root {
---back: #090909;
---white: #ffffff;
---green: #15616D;
---beige: #FFECD1;
---orange: #FF7D00;
---brown: #78290F;
---dark: #001524;
-
+  --black: #090909;
+  --white: #ffffff;
+  --green: #15616D;
+  --beige: #FFECD1;
+  --orange:#FF7D00;
+  --brow:  #78290F;
+  --dark:  #001524;
 }
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
-
-body {
-background-color: var(--dark);
-color : var(--beige);
+body{
+  background-color: var(--dark);
+  color: var(--beige);
 }
