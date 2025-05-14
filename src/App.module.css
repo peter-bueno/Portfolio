@@ -4,3 +4,46 @@
     text-align: center;
     margin-top: 10vh;
 }
+
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    font-size: 1.4rem;
+    height: 50px;
+    background-color: var(--orange);
+    color: var(--brown);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.s1{
+background-color: red;
+height: 100vh;
+padding-top: 50px;
+
+}
+
+.s2{
+background-color: blue;
+height: 100vh;
+padding-top: 50px;
+
+}
+
+.s3{
+background-color: green;
+height: 100vh;   
+padding-top: 50px;
+
+}
+
+.s4{
+background-color: yellow;
+height: 100vh;   
+padding-top: 50px;
+
+}
