@@ -8,6 +8,9 @@
     --deep-navy: #4d4c7d;       /* Azul escuro, moderno e intenso */
 }
 
+#s1{
+  color: var(--light-gray);
+}
 *{
   padding: 0;
   margin: 0;
@@ -18,15 +21,15 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--concrete-gray);
-  color: var(--soft-coral);
+  color: var(--light-gray);
 }
 a{
   text-decoration: none;
-  color: var(--concrete-gray);
+  color: var(--light-gray);
   opacity: 0.5;
   transition: all 200ms ease-in-out;
 }
 
 a:hover{
-  opacity: 1;
+  opacity: 1.5;
 }
