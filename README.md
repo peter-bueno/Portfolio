@@ -1,6 +1,6 @@
 
-#Portfolio | Live na Vercel
-Este é o repositório do meu portfólio pessoal, desenvolvido com React e deploy contínuo via Vercel. Aqui você encontra um pouco sobre mim, as tecnologias que domino, e uma forma prática de entrar em contato comigo diretamente pelo WhatsApp.
+# Prototipo do Portfolio | Live na Vercel
+
 ---
 ⚠️ Status: Em desenvolvimento ativo
 O projeto já está no ar e funcional, mas ainda estou evoluindo o design, conteúdo e funcionalidades com o tempo. Fique à vontade para acompanhar essa caminhada!
